@@ -18,7 +18,8 @@ module.exports = {
                     version: version,
                     author: author,
                     description: description,
-                    match: "*://karachan.org/*"
+                    match: "*://karachan.org/*",
+                    license: "WTFPL"
                 };
             }
         })

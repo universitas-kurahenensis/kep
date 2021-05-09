@@ -1,0 +1,25 @@
+{
+  "name": "kep",
+  "version": "0.1.0",
+  "description": "Kurahen Enhancement Project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --liveReload",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Universitas-Kurahenensis"
+  },
+  "author": "Universitas Kurahenensis",
+  "license": "WTFPL",
+  "devDependencies": {
+    "webpack": "^5.36.2",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-userscript": "^2.5.7"
+  },
+  "dependencies": {
+    "diacritic": "0.0.2"
+  }
+}
